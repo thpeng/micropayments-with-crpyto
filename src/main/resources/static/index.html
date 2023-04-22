@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="nzz_css.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <style>
+        p.blur {
+            font-size: 10px;
+            color: transparent;
+            text-shadow: 0 0 8px #000;
+        }
+
+
+
+        img.blur {
+            width: 730px;
+            height: 520px;
+            filter: blur(5px);
+        }
+    </style>
+    <script src="metamask-sdk.js"></script>
+    <script>
+
+        const options = {
+            injectProvider: true,
+            communicationLayerPreference: 'socket',
+        };
+
+
+        const ethereum = window.ethereum
+
+
+    </script>
+
+</head>
+<body>
+
+<div>
+    <h1>Künstliche Intelligenz dominiert den Cyberspace</h1>
+    <p id="cyber" class="blur">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+    <img id="cyberpicture" class="blur" src="ai_dominating_cyberspace.png"/>
+    <button onclick="
+               accounts = ethereum.request({ method: 'eth_requestAccounts' });
+               console.log(accounts)
+">Enable Payment</button>
+    <button onclick="
+             let transactionParam = {
+                 to: '0x189Bf5d9a18DF7c24DD1794ebF09A7e33DfeB290',
+                 from: ethereum.selectedAddress,
+                 value: '0x38D7EA4C68000'
+             }
+
+             ethereum.request({method: 'eth_sendTransaction', params:[transactionParam]}).then(txhash => {
+                console.log(txhash);
+                    document.querySelector('#cyber').classList.remove('blur');
+                    document.querySelector('#cyberpicture').classList.remove('blur');
+
+
+             });
+">unblur me for 0.001 ETH
+    </button>
+</div>
+
+
+</body>
+</html>
