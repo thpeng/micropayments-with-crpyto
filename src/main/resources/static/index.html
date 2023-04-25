@@ -49,22 +49,7 @@
                 </div> <!---->
                 <div class="nzz-container">
                     <div id="header" class="header">
-                        <div class="header__above">
-                            <div class="header-service">
-                                <div class="header-service__holder">
-                                    <div class="header-service__wrapper">
-                                        <div class="header-service__container header-service__container--left">
-                                            <button onclick="
-               accounts = ethereum.request({ method: 'eth_requestAccounts' });
-               console.log(accounts)
-">Enable Payment
-                                            </button>
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div class="header__stay-on-top--wrapper" style="min-height:56px;">
                             <div class="header__stay-on-top header__stay-on-top--transition">
                                 <div class="header__scrollwrapper">
@@ -73,12 +58,7 @@
                                             <div class="header-main__container">
 
                                                 <!----></div>
-                                            <h1 data-nzz-referrer="headerLogo" class="header__logo"><a href="/"
-                                                                                                       aria-current="page"
-                                                                                                       title="Neue HWZ Zeitung"
-                                                                                                       class="header__logo--link nuxt-link-exact-active nuxt-link-active">
-
-                                            </a></h1>
+                                            <h1 data-nzz-referrer="headerLogo" class="header__logo">Neue HWZ Zeitung powered by iREAD</h1>
                                             <div class="header-main__container header-main__container--right"><!---->
                                                 <!---->
                                                 <button role="button" aria-label="Suche" data-nzz-search-button=""
@@ -92,6 +72,22 @@
                                                                                                   _stroke="#000"/><circle
                                                             stroke="#000000" fill="none" pid="1" cx="22.5" cy="22.5"
                                                             r="7" _stroke="#000"/></svg></span> <!----></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header__above">
+                                    <div class="header-service">
+                                        <div class="header-service__holder">
+                                            <div class="header-service__wrapper">
+                                                <div class="header-service__container header-service__container--left">
+                                                    <button onclick="
+               accounts = ethereum.request({ method: 'eth_requestAccounts' });
+               console.log(accounts)
+">Enable Payment
+                                                    </button>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
