@@ -257,7 +257,7 @@
     .footer__print {
         display: block !important;
         padding-top: 40px;
-        font-family: nzz-sans-serif, Arial;
+        font-family: nhwzz-sans-serif, Arial;
         border-top: 1px solid #ebebeb;
     }
 
@@ -315,7 +315,7 @@ html {
     font-feature-settings: "calt" off;
     box-sizing: border-box;
     counter-reset: subtitle-numbered;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 100%;
     font-variant-ligatures: no-contextual;
     font-weight: 100;
@@ -738,7 +738,7 @@ canvas {
 /*! purgecss end ignore */
 .button {
     color: var(--grayMedium);
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: .875rem;
     font-weight: 300;
     line-height: 1.375rem;
@@ -1139,7 +1139,7 @@ picture.image-placeholder__image img {
 }
 
 .page-header {
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     padding-bottom: 16px;
     padding-top: 32px
 }
@@ -1340,7 +1340,7 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
 
 .container--article {
     background-color: var(--white);
-    font-family: nzz-serif,Georgia;
+    font-family: nhwzz-serif,Georgia;
     margin: 0 auto;
     max-width: 1200px;
     max-width: 100%;
@@ -1464,7 +1464,7 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
     border-top: 1px solid var(--grayLight);
     color: var(--black);
     display: block;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.5rem;
@@ -1494,7 +1494,7 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
 }
 
 .container__header-title--bta {
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 1.25rem;
     line-height: 1.75rem
 }
@@ -1581,7 +1581,7 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
 }
 
 .container__description {
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: .875rem;
     line-height: 1.375rem;
     margin-top: 16px;
@@ -1632,7 +1632,7 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
 
 .container__tag {
     display: block;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.375rem;
@@ -1877,7 +1877,7 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
 
 .widget__title {
     display: inline-block;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-weight: 500;
     line-height: 1.375rem;
     margin-bottom: 24px;
@@ -2107,7 +2107,7 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
 }
 
 .widget__info {
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 1rem;
     line-height: 1.5
 }
@@ -2297,7 +2297,7 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
 .teaser {
     display: flex;
     flex-direction: column;
-    font-family: nzz-sans-serif,Arial
+    font-family: nhwzz-sans-serif,Arial
 }
 
 @media (min-width: 768px) {
@@ -2713,7 +2713,7 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
     }
 }
 
-.teaser--highlight.teaser--bellevue,.teaser--highlight.teaser--nzz,.teaser--highlight.teaser--nzzas,.teaser--highlight.teaser--themarket {
+.teaser--highlight.teaser--bellevue,.teaser--highlight.teaser--nhwzz,.teaser--highlight.teaser--nhwzzas,.teaser--highlight.teaser--themarket {
     padding-top: 24px
 }
 
@@ -2930,14 +2930,14 @@ body:not(.disruptive) .container.layout--gallery>:not([componenttype=gallery-pag
 }
 
 .teaser__title {
-    font-family: nzz-serif,Georgia;
+    font-family: nhwzz-serif,Georgia;
     font-weight: 400;
     margin: 0;
     position: relative
 }
 
 .teaser__title--longformstandard,.teaser__title--longformvisual {
-    font-family: nzz-serif-alt,Georgia
+    font-family: nhwzz-serif-alt,Georgia
 }
 
 .teaser__title-name {
@@ -2960,7 +2960,7 @@ a:hover .teaser__title-name {
 }
 
 .teaser__title--briefing {
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: .875rem
 }
 
@@ -3331,7 +3331,7 @@ a:hover .teaser__title-name {
     content: counter(numbered);
     counter-increment: numbered;
     display: inline-block;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 1.125rem;
     font-weight: 500;
     left: -40px;
@@ -3370,7 +3370,7 @@ a:hover .teaser__title-name {
     content: counter(numbered);
     counter-increment: numbered;
     display: inline-block;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 1.125rem;
     font-weight: 500;
     left: -40px;
@@ -3433,7 +3433,7 @@ a:hover .teaser__title-name {
 }
 
 .icon__briefing {
-    background-color: var(--blueNzz);
+    background-color: var(--bluenhwzz);
     padding: 15px
 }
 
@@ -3711,17 +3711,17 @@ em {
     margin: 0
 }
 
-.nzz-page-transition {
+.nhwzz-page-transition {
     opacity: 1;
     transition: all .2s ease-out
 }
 
-.nzz-container {
+.nhwzz-container {
     background-color: var(--white);
     min-height: 100vh
 }
 
-.nzz-page-leave {
+.nhwzz-page-leave {
     opacity: 0;
     transform-origin: 50% 50%
 }
@@ -3934,11 +3934,11 @@ iframe {
         color: #fff
     }
 
-    .teaser-mobile-fullscreen .teaser__content .teaser__flag .icon--pro-nzz rect,.teaser__content--teaser-mobile-fullscreen .teaser__flag .icon--pro-nzz rect {
+    .teaser-mobile-fullscreen .teaser__content .teaser__flag .icon--pro-nhwzz rect,.teaser__content--teaser-mobile-fullscreen .teaser__flag .icon--pro-nhwzz rect {
         fill: #fff
     }
 
-    .teaser-mobile-fullscreen .teaser__content .teaser__flag .icon--pro-nzz path,.teaser__content--teaser-mobile-fullscreen .teaser__flag .icon--pro-nzz path {
+    .teaser-mobile-fullscreen .teaser__content .teaser__flag .icon--pro-nhwzz path,.teaser__content--teaser-mobile-fullscreen .teaser__flag .icon--pro-nhwzz path {
         fill: #000
     }
 
@@ -4263,7 +4263,7 @@ iframe {
 }
 
 .teaser--condensed .teaser__video.size-1of2 .teaser__title-name,.teaser--condensed .teaser__video.teaser--size-1of2 .teaser__title-name,.teaser--condensed .teaser__video.teaser--size-1of2-compact .teaser__title-name {
-    font-family: nzz-serif,Georgia;
+    font-family: nhwzz-serif,Georgia;
     font-size: 1rem;
     line-height: 1.375rem
 }
@@ -5151,7 +5151,7 @@ iframe {
 }
 
 .widget--article .teaser__title--condensed {
-    font-family: nzz-serif,Georgia;
+    font-family: nhwzz-serif,Georgia;
     font-size: 1rem;
     line-height: 1.375rem
 }
@@ -5190,7 +5190,7 @@ iframe {
 }
 
 .teaser__title--condensed,.teaser__title--condensed.teaser__title--0 {
-    font-family: nzz-serif,Georgia;
+    font-family: nhwzz-serif,Georgia;
     font-size: 1rem;
     line-height: 1.375rem
 }
@@ -5253,23 +5253,23 @@ iframe {
     line-height: 1rem
 }
 
-.teaser .icon--pro-nzz {
+.teaser .icon--pro-nhwzz {
     margin-bottom: 0
 }
 
-.icon--pro-nzz rect {
+.icon--pro-nhwzz rect {
     fill: var(--black)
 }
 
-.icon--pro-nzz path {
+.icon--pro-nhwzz path {
     fill: var(--white)
 }
 
-.headline--briefing .icon--pro-nzz rect,.headline--hero .icon--pro-nzz rect,.headline--sponsored .icon--pro-nzz rect,.teaser--sponsored .teaser__flag .icon--pro-nzz rect {
+.headline--briefing .icon--pro-nhwzz rect,.headline--hero .icon--pro-nhwzz rect,.headline--sponsored .icon--pro-nhwzz rect,.teaser--sponsored .teaser__flag .icon--pro-nhwzz rect {
     fill: var(--alwaysBlack)
 }
 
-.headline--briefing .icon--pro-nzz path,.headline--hero .icon--pro-nzz path,.headline--sponsored .icon--pro-nzz path,.teaser--sponsored .teaser__flag .icon--pro-nzz path {
+.headline--briefing .icon--pro-nhwzz path,.headline--hero .icon--pro-nhwzz path,.headline--sponsored .icon--pro-nhwzz path,.teaser--sponsored .teaser__flag .icon--pro-nhwzz path {
     fill: var(--alwaysWhite)
 }
 
@@ -5365,7 +5365,7 @@ iframe {
 }
 
 .widget__row--bta-tags .bta-tags-title {
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.375rem
@@ -6008,7 +6008,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
     --blueStrong: #2c32bd;
     --blueLight: #5a5ed1;
     --blueGray: #7986b7;
-    --blueNzz: #13175f;
+    --bluenhwzz: #13175f;
     --red: #e74e4b;
     --green: #46d38e;
     --yellow: #fff77e;
@@ -6372,7 +6372,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
     color: var(--black);
     cursor: pointer;
     display: flex;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: .875rem;
     font-weight: 300;
     height: 56px;
@@ -6634,7 +6634,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
 }
 
 .overlay__title {
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 1.375rem;
     line-height: 1.36
 }
@@ -7064,7 +7064,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
 
 .header-weather__item {
     color: var(--black);
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: .875rem;
     height: 24px;
     line-height: 1.5rem
@@ -7368,7 +7368,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
 .mainmenu__item {
     display: flex;
     flex-shrink: 0;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: .875rem;
     height: 56px;
     line-height: 1.5rem;
@@ -7608,7 +7608,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
 }
 
 .smartteaser__briefingicon {
-    background-color: var(--blueNZZ);
+    background-color: var(--bluenhwzz);
     flex-basis: 56px;
     flex-shrink: 0;
     height: 56px;
@@ -7653,7 +7653,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
     color: var(--black);
     cursor: pointer;
     display: flex;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: .75rem;
     line-height: 1rem;
     padding: 16px 0;
@@ -8204,7 +8204,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
 
 .poster__icon--title {
     color: var(--white);
-    font-family: nzz-serif-alt,Georgia;
+    font-family: nhwzz-serif-alt,Georgia;
     font-size: 1.75rem;
     font-style: normal;
     font-weight: 500;
@@ -8236,7 +8236,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
     display: inline-flex
 }
 
-.poster__details .teaser__flag .icon--pro-nzz {
+.poster__details .teaser__flag .icon--pro-nhwzz {
     filter: invert(1)
 }
 
@@ -8346,7 +8346,7 @@ body.gallery #footer,body.gallery #footer~*,body.gallery #header {
 .metainfo {
     color: var(--grayMedium);
     display: flex;
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: .75rem;
     line-height: 1rem;
     position: relative
@@ -8892,7 +8892,7 @@ a.metainfo__link--alias,a.metainfo__link--alias:visited {
 }
 
 .container-store--product-bellevue .teaser__title {
-    font-family: nzz-serif-alt,Georgia
+    font-family: nhwzz-serif-alt,Georgia
 }
 
 .container-store--product-themarket {
@@ -9380,7 +9380,7 @@ a.metainfo__link--alias,a.metainfo__link--alias:visited {
 }
 
 .footer__item {
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: .875rem;
     line-height: 1.25rem;
     list-style: none;
@@ -9464,7 +9464,7 @@ a.metainfo__link--alias,a.metainfo__link--alias:visited {
 
 .footer__section--title {
     color: var(--black);
-    font-family: nzz-sans-serif,Arial;
+    font-family: nhwzz-sans-serif,Arial;
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.75rem

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>HWZ DPL iRead</title>
-    <link rel="stylesheet" href="nzz_css.css">
+    <link rel="stylesheet" href="nhwzz_css.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <meta name="robots" content="noindex">
@@ -40,14 +40,14 @@
 </head>
 
 <body class="" data-n-head="%7B%22class%22:%7B%22ssr%22:%22%22%7D%7D">
-<div data-server-rendered="true" id="__nzz">
+<div data-server-rendered="true" id="__nhwzz">
     <div id="__layout">
-        <div data-nzz-tid="/" class="page--article-id" style="opacity:1;"><!----> <!----> <!----> <!---->
+        <div data-nhwzz-tid="/" class="page--article-id" style="opacity:1;"><!----> <!----> <!----> <!---->
             <div class="pageholder">
                 <div class="resor resor__skyscraper">
                     <div id="adnz_skyscraper_1" data-hydrated="0" class="resor__item"></div>
                 </div> <!---->
-                <div class="nzz-container">
+                <div class="nhwzz-container">
                     <div id="header" class="header">
 
                         <div class="header__stay-on-top--wrapper" style="min-height:56px;">
@@ -58,10 +58,13 @@
                                             <div class="header-main__container">
 
                                                 <!----></div>
-                                            <h1 data-nzz-referrer="headerLogo" class="header__logo">Neue HWZ Zeitung powered by iREAD</h1>
+                                            <h1 data-nhwzz-referrer="headerLogo" class="header__logo" style="top: 30px; font-size: 2.5em; width: 360px">𝕳𝔢𝔲𝔢 ℌ𝔚𝖅
+                                                𝖅𝔢𝔦𝔱𝔲𝔫𝔤
+                                            </h1>
+
                                             <div class="header-main__container header-main__container--right"><!---->
                                                 <!---->
-                                                <button role="button" aria-label="Suche" data-nzz-search-button=""
+                                                <button role="button" aria-label="Suche" data-nhwzz-search-button=""
                                                         class="header-button header-main__item header-main__item--search">
                                                     <span class="header-button__label header-button__label--hide-mobile"><svg
                                                             version="1.1" viewBox="0 0 48 48"
@@ -74,6 +77,7 @@
                                                             r="7" _stroke="#000"/></svg></span> <!----></button>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                                 <div class="header__above">
@@ -81,12 +85,16 @@
                                         <div class="header-service__holder">
                                             <div class="header-service__wrapper">
                                                 <div class="header-service__container header-service__container--left">
-                                                    <button onclick="
+                                                    <button class='enablepaymentbutton' onclick="
                accounts = ethereum.request({ method: 'eth_requestAccounts' });
+               accounts.then(document.querySelectorAll('.paymentbutton').forEach((item =>{item.removeAttribute('hidden')})));
                console.log(accounts)
 ">Enable Payment
                                                     </button>
 
+                                                </div>
+                                                <div class="header-service__container header-service__container--left">
+                                                    <small>powered by iRead</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -116,27 +124,28 @@
                                 </div>
                             </div>
                         </div> <!----></div>
-                    <div id="page" class="nzz-page-transition">
+                    <div id="page" class="nhwzz-page-transition">
                         <div class="smartteaser"><!----></div> <!----> <!---->
                         <div>
                             <section class="container container--page">
                                 <div id="contdoc-1grv2q37j0-14794" never="" class="elementwrap"><!---->
                                     <article data-source-element="Container-Toplayout-Standard"
-                                             data-nzz-tid="container-exclusive" data-nzz-container="" id="" content=""
+                                             data-nhwzz-tid="container-exclusive" data-nhwzz-container="" id=""
+                                             content=""
                                              class="pageelement pageelement--container--exclusive-toplayout-standard no-color-scheme">
                                         <div class="pageelement__inner"><!---->
                                             <div class="widget__row">
-                                                <div data-nzz-tid="widget-1of3"
+                                                <div data-nhwzz-tid="widget-1of3"
                                                      data-source-element-widget="Widget-2/3-Breite"
                                                      id="id-doc-1gusepepr1" content="" pagetype="Page"
                                                      componenttype="widget--1of3-article"
                                                      class="widget--1of3 widget--article"><!---->
-                                                    <article data-nzz-tid="" article-embed=""
+                                                    <article data-nhwzz-tid="" article-embed=""
                                                              data-source-element-widget=""
                                                              class="teaser--article teaser--2of3">
-                                                        <div id="id-ld_1735029" data-nzz-tid="teaser"
-                                                             data-nzz-cid="doc-1grv2q37j0" data-nzz-cp="1"
-                                                             data-nzz-ct="" data-nzz-pic="1"
+                                                        <div id="id-ld_1735029" data-nhwzz-tid="teaser"
+                                                             data-nhwzz-cid="doc-1grv2q37j0" data-nhwzz-cp="1"
+                                                             data-nhwzz-ct="" data-nhwzz-pic="1"
                                                              class="teaser teaser__layout--longformstandard teaser--size-2of3">
                                                             <!----> <!----> <!----> <!----> <!---->
                                                             <div class="poster poster--1of3 poster--1of3-longformstandard">
@@ -144,14 +153,24 @@
 
                                                                 <img id="haipicture" class="blur" src="shark.png"/>
                                                                 <p id="hai" class="blur">
-                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                                                                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                                                                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                                                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                                                                    labore et
+                                                                    dolore magna aliquyam erat, sed diam voluptua. At
+                                                                    vero eos et accusam et justo duo dolores et ea
+                                                                    rebum. Stet
+                                                                    clita kasd gubergren, no sea takimata sanctus est
+                                                                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                                                                    amet,
+                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod
+                                                                    tempor invidunt ut labore et dolore magna aliquyam
+                                                                    erat, sed
+                                                                    diam voluptua. At vero eos et accusam et justo duo
+                                                                    dolores et ea rebum. Stet clita kasd gubergren, no
+                                                                    sea
                                                                     takimata sanctus est Lorem ipsum dolor sit amet.
                                                                 </p>
-                                                                <button onclick="
+                                                                <button id="haibutton" class="paymentbutton" hidden="hidden" onclick="
              let transactionParam = {
                  to: '0x427A77C91E12fd60c2f602993a2fc0c08CFBe5aa',
                  from: ethereum.selectedAddress,
@@ -162,6 +181,7 @@
                 console.log(txhash);
                     document.querySelector('#hai').classList.remove('blur');
                     document.querySelector('#haipicture').classList.remove('blur');
+                    document.querySelector('#haibutton').style.visibility  = 'hidden';
 
 
              });
@@ -172,32 +192,43 @@
                                                     </article>
 
                                                 </div>
-                                                <div data-nzz-tid="widget-2of3"
+                                                <div data-nhwzz-tid="widget-2of3"
                                                      data-source-element-widget="Widget-2/3-Breite"
                                                      id="id-doc-1gusepepr0" content="" pagetype="Page"
                                                      componenttype="widget--2of3-article"
                                                      class="widget--2of3 widget--article"><!---->
-                                                    <article data-nzz-tid="" article-embed=""
+                                                    <article data-nhwzz-tid="" article-embed=""
                                                              data-source-element-widget=""
                                                              class="teaser--article teaser--2of3">
-                                                        <div id="id-ld_1735028" data-nzz-tid="teaser"
-                                                             data-nzz-cid="doc-1grv2q37j0" data-nzz-cp="1"
-                                                             data-nzz-ct="" data-nzz-pic="1"
+                                                        <div id="id-ld_1735028" data-nhwzz-tid="teaser"
+                                                             data-nhwzz-cid="doc-1grv2q37j0" data-nhwzz-cp="1"
+                                                             data-nhwzz-ct="" data-nhwzz-pic="1"
                                                              class="teaser teaser__layout--longformstandard teaser--size-2of3">
                                                             <!----> <!----> <!----> <!----> <!---->
                                                             <div class="poster poster--2of3 poster--2of3-longformstandard">
-                                                                <h1>Künstliche Intelligenz dominiert den Cyberspace</h1>
+                                                                <h1>Künstliche Intelligenz dominiert Cyberspace</h1>
 
-                                                                <img id="cyberpicture" class="blur" src="ai_dominating_cyberspace.png"/>
+                                                                <img id="cyberpicture" class="blur"
+                                                                     src="ai_dominating_cyberspace.png"/>
                                                                 <p id="cyber" class="blur">
-                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                                                                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                                                                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                                                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                                                                    labore et
+                                                                    dolore magna aliquyam erat, sed diam voluptua. At
+                                                                    vero eos et accusam et justo duo dolores et ea
+                                                                    rebum. Stet
+                                                                    clita kasd gubergren, no sea takimata sanctus est
+                                                                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                                                                    amet,
+                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod
+                                                                    tempor invidunt ut labore et dolore magna aliquyam
+                                                                    erat, sed
+                                                                    diam voluptua. At vero eos et accusam et justo duo
+                                                                    dolores et ea rebum. Stet clita kasd gubergren, no
+                                                                    sea
                                                                     takimata sanctus est Lorem ipsum dolor sit amet.
                                                                 </p>
-                                                                <button onclick="
+                                                                <button id="cyberbutton" class="paymentbutton" hidden="hidden" onclick="
              let transactionParam = {
                  to: '0x427A77C91E12fd60c2f602993a2fc0c08CFBe5aa',
                  from: ethereum.selectedAddress,
@@ -208,7 +239,7 @@
                 console.log(txhash);
                     document.querySelector('#cyber').classList.remove('blur');
                     document.querySelector('#cyberpicture').classList.remove('blur');
-
+                    document.querySelector('#cyberbutton').style.visibility  = 'hidden';
 
              });
 ">unblur me for 0.001 ETH
@@ -218,17 +249,17 @@
                                                     </article>
 
                                                 </div>
-                                                <div data-nzz-tid="widget-3of3"
+                                                <div data-nhwzz-tid="widget-3of3"
                                                      data-source-element-widget="Widget-2/3-Breite"
                                                      id="id-doc-1gusepepr11" content="" pagetype="Page"
                                                      componenttype="widget--2of3-article"
                                                      class="widget--3of3 widget--article"><!---->
-                                                    <article data-nzz-tid="" article-embed=""
+                                                    <article data-nhwzz-tid="" article-embed=""
                                                              data-source-element-widget=""
                                                              class="teaser--article teaser--3of3">
-                                                        <div id="id-ld_17350291" data-nzz-tid="teaser"
-                                                             data-nzz-cid="doc-1grv2q37j0" data-nzz-cp="1"
-                                                             data-nzz-ct="" data-nzz-pic="1"
+                                                        <div id="id-ld_17350291" data-nhwzz-tid="teaser"
+                                                             data-nhwzz-cid="doc-1grv2q37j0" data-nhwzz-cp="1"
+                                                             data-nhwzz-ct="" data-nhwzz-pic="1"
                                                              class="teaser teaser__layout--longformstandard teaser--size-2of3">
                                                             <!----> <!----> <!----> <!----> <!---->
                                                             <div class="poster poster--3of3 poster--3of3-longformstandard">
@@ -236,14 +267,24 @@
 
                                                                 <img id="trainpicture" class="blur" src="train.png"/>
                                                                 <p id="train" class="blur">
-                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                                                                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                                                                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                                                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                                                                    labore et
+                                                                    dolore magna aliquyam erat, sed diam voluptua. At
+                                                                    vero eos et accusam et justo duo dolores et ea
+                                                                    rebum. Stet
+                                                                    clita kasd gubergren, no sea takimata sanctus est
+                                                                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                                                                    amet,
+                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod
+                                                                    tempor invidunt ut labore et dolore magna aliquyam
+                                                                    erat, sed
+                                                                    diam voluptua. At vero eos et accusam et justo duo
+                                                                    dolores et ea rebum. Stet clita kasd gubergren, no
+                                                                    sea
                                                                     takimata sanctus est Lorem ipsum dolor sit amet.
                                                                 </p>
-                                                                <button onclick="
+                                                                <button id="trainbutton" class="paymentbutton" hidden="hidden" onclick="
              let transactionParam = {
                  to: '0x427A77C91E12fd60c2f602993a2fc0c08CFBe5aa',
                  from: ethereum.selectedAddress,
@@ -254,6 +295,7 @@
                 console.log(txhash);
                     document.querySelector('#train').classList.remove('blur');
                     document.querySelector('#trainpicture').classList.remove('blur');
+                                        document.querySelector('#trainbutton').style.visibility  = 'hidden';
 
 
              });
@@ -266,17 +308,17 @@
                                                 </div>
                                             </div>
                                             <div class="widget__row">
-                                                <div data-nzz-tid="widget-1of3"
+                                                <div data-nhwzz-tid="widget-1of3"
                                                      data-source-element-widget="Widget-2/3-Breite"
                                                      id="id-doc-1gddsepepr1" content="" pagetype="Page"
                                                      componenttype="widget--1of3-article"
                                                      class="widget--1of3 widget--article"><!---->
-                                                    <article data-nzz-tid="" article-embed=""
+                                                    <article data-nhwzz-tid="" article-embed=""
                                                              data-source-element-widget=""
                                                              class="teaser--article teaser--2of3">
-                                                        <div id="id-ld_s1735029" data-nzz-tid="teaser"
-                                                             data-nzz-cid="doc-1grv2q37j0" data-nzz-cp="1"
-                                                             data-nzz-ct="" data-nzz-pic="1"
+                                                        <div id="id-ld_s1735029" data-nhwzz-tid="teaser"
+                                                             data-nhwzz-cid="doc-1grv2q37j0" data-nhwzz-cp="1"
+                                                             data-nhwzz-ct="" data-nhwzz-pic="1"
                                                              class="teaser teaser__layout--longformstandard teaser--size-2of3">
                                                             <!----> <!----> <!----> <!----> <!---->
                                                             <div class="poster poster--1of3 poster--1of3-longformstandard">
@@ -284,14 +326,24 @@
 
                                                                 <img id="spacexpicture" class="blur" src="spacex.png"/>
                                                                 <p id="spacex" class="blur">
-                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                                                                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                                                                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                                                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                                                                    labore et
+                                                                    dolore magna aliquyam erat, sed diam voluptua. At
+                                                                    vero eos et accusam et justo duo dolores et ea
+                                                                    rebum. Stet
+                                                                    clita kasd gubergren, no sea takimata sanctus est
+                                                                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                                                                    amet,
+                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod
+                                                                    tempor invidunt ut labore et dolore magna aliquyam
+                                                                    erat, sed
+                                                                    diam voluptua. At vero eos et accusam et justo duo
+                                                                    dolores et ea rebum. Stet clita kasd gubergren, no
+                                                                    sea
                                                                     takimata sanctus est Lorem ipsum dolor sit amet.
                                                                 </p>
-                                                                <button onclick="
+                                                                <button id="spacexbutton" class="paymentbutton" hidden="hidden" onclick="
              let transactionParam = {
                  to: '0x427A77C91E12fd60c2f602993a2fc0c08CFBe5aa',
                  from: ethereum.selectedAddress,
@@ -302,6 +354,8 @@
                 console.log(txhash);
                     document.querySelector('#spacex').classList.remove('blur');
                     document.querySelector('#spacexpicture').classList.remove('blur');
+                                        document.querySelector('#spacexbutton').style.visibility  = 'hidden';
+
 
 
              });
@@ -312,17 +366,17 @@
                                                     </article>
 
                                                 </div>
-                                                <div data-nzz-tid="widget-2of3"
+                                                <div data-nhwzz-tid="widget-2of3"
                                                      data-source-element-widget="Widget-2/3-Breite"
                                                      id="id-doc-1gusepespr0" content="" pagetype="Page"
                                                      componenttype="widget--2of3-article"
                                                      class="widget--2of3 widget--article"><!---->
-                                                    <article data-nzz-tid="" article-embed=""
+                                                    <article data-nhwzz-tid="" article-embed=""
                                                              data-source-element-widget=""
                                                              class="teaser--article teaser--2of3">
-                                                        <div id="id-ld_d1735028" data-nzz-tid="teaser"
-                                                             data-nzz-cid="doc-1grv2q37j0" data-nzz-cp="1"
-                                                             data-nzz-ct="" data-nzz-pic="1"
+                                                        <div id="id-ld_d1735028" data-nhwzz-tid="teaser"
+                                                             data-nhwzz-cid="doc-1grv2q37j0" data-nhwzz-cp="1"
+                                                             data-nhwzz-ct="" data-nhwzz-pic="1"
                                                              class="teaser teaser__layout--longformstandard teaser--size-2of3">
                                                             <!----> <!----> <!----> <!----> <!---->
                                                             <div class="poster poster--2of3 poster--2of3-longformstandard">
@@ -330,14 +384,24 @@
 
                                                                 <img id="ireadpicture" class="blur" src="iread.png"/>
                                                                 <p id="iread" class="blur">
-                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                                                                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                                                                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                                                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                                                                    labore et
+                                                                    dolore magna aliquyam erat, sed diam voluptua. At
+                                                                    vero eos et accusam et justo duo dolores et ea
+                                                                    rebum. Stet
+                                                                    clita kasd gubergren, no sea takimata sanctus est
+                                                                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                                                                    amet,
+                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod
+                                                                    tempor invidunt ut labore et dolore magna aliquyam
+                                                                    erat, sed
+                                                                    diam voluptua. At vero eos et accusam et justo duo
+                                                                    dolores et ea rebum. Stet clita kasd gubergren, no
+                                                                    sea
                                                                     takimata sanctus est Lorem ipsum dolor sit amet.
                                                                 </p>
-                                                                <button onclick="
+                                                                <button id="ireadbutton" class="paymentbutton" hidden="hidden" onclick="
              let transactionParam = {
                  to: '0x427A77C91E12fd60c2f602993a2fc0c08CFBe5aa',
                  from: ethereum.selectedAddress,
@@ -348,6 +412,8 @@
                 console.log(txhash);
                     document.querySelector('#iread').classList.remove('blur');
                     document.querySelector('#ireadpicture').classList.remove('blur');
+                                        document.querySelector('#ireadbutton').style.visibility  = 'hidden';
+
 
 
              });
@@ -358,32 +424,43 @@
                                                     </article>
 
                                                 </div>
-                                                <div data-nzz-tid="widget-3of3"
+                                                <div data-nhwzz-tid="widget-3of3"
                                                      data-source-element-widget="Widget-2/3-Breite"
                                                      id="id-doc-1gusepepr111" content="" pagetype="Page"
                                                      componenttype="widget--2of3-article"
                                                      class="widget--3of3 widget--article"><!---->
-                                                    <article data-nzz-tid="" article-embed=""
+                                                    <article data-nhwzz-tid="" article-embed=""
                                                              data-source-element-widget=""
                                                              class="teaser--article teaser--3of3">
-                                                        <div id="id-ld_173502911" data-nzz-tid="teaser"
-                                                             data-nzz-cid="doc-1grv2q37j0" data-nzz-cp="1"
-                                                             data-nzz-ct="" data-nzz-pic="1"
+                                                        <div id="id-ld_173502911" data-nhwzz-tid="teaser"
+                                                             data-nhwzz-cid="doc-1grv2q37j0" data-nhwzz-cp="1"
+                                                             data-nhwzz-ct="" data-nhwzz-pic="1"
                                                              class="teaser teaser__layout--longformstandard teaser--size-2of3">
                                                             <!----> <!----> <!----> <!----> <!---->
                                                             <div class="poster poster--3of3 poster--3of3-longformstandard">
                                                                 <h1>Herr der Ringe 4 angekündigt</h1>
 
-                                                                <img id="gandalfpicture" class="blur" src="gandalf.png"/>
+                                                                <img id="gandalfpicture" class="blur"
+                                                                     src="gandalf.png"/>
                                                                 <p id="gandalf" class="blur">
-                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                                                                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                                                                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                                                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                                                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                                                                    labore et
+                                                                    dolore magna aliquyam erat, sed diam voluptua. At
+                                                                    vero eos et accusam et justo duo dolores et ea
+                                                                    rebum. Stet
+                                                                    clita kasd gubergren, no sea takimata sanctus est
+                                                                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                                                                    amet,
+                                                                    consetetur sadipscing elitr, sed diam nonumy eirmod
+                                                                    tempor invidunt ut labore et dolore magna aliquyam
+                                                                    erat, sed
+                                                                    diam voluptua. At vero eos et accusam et justo duo
+                                                                    dolores et ea rebum. Stet clita kasd gubergren, no
+                                                                    sea
                                                                     takimata sanctus est Lorem ipsum dolor sit amet.
                                                                 </p>
-                                                                <button onclick="
+                                                                <button id="gandalfbutton" class="paymentbutton" hidden="hidden" onclick="
              let transactionParam = {
                  to: '0x427A77C91E12fd60c2f602993a2fc0c08CFBe5aa',
                  from: ethereum.selectedAddress,
@@ -394,6 +471,8 @@
                 console.log(txhash);
                     document.querySelector('#gandalf').classList.remove('blur');
                     document.querySelector('#gandalfpicture').classList.remove('blur');
+                                        document.querySelector('#gandalfbutton').style.visibility  = 'hidden';
+
 
 
              });
@@ -420,28 +499,28 @@
                         </div> <!----> <!----></section>
                     </div>
                 </div>
-            </div>
-            <div id="footer" class="pageelement footer"><!---->
-                <div class="footer__column">
-                    <div class="footer__section"><h2 class="footer__section--title">
-                        Service
-                    </h2>
-                        <ul class="footer__section--list">
-                            <li class="footer__item"><a
-                                    href="HWZ"
-                                    data-nzz-referrer="footermenuLevel1" data-nzz-tid="menu-level-1"
-                                    class="footer__link">
-                                HWZ
-                            </a></li>
+                <div id="footer" class="pageelement footer"><!---->
+                    <div class="footer__column">
+                        <div class="footer__section"><h2 class="footer__section--title">
+                            Service
+                        </h2>
+                            <ul class="footer__section--list">
+                                <li class="footer__item"><a
+                                        href="HWZ"
+                                        data-nhwzz-referrer="footermenuLevel1" data-nhwzz-tid="menu-level-1"
+                                        class="footer__link">
+                                    HWZ
+                                </a></li>
 
-                        </ul>
+                            </ul>
+                        </div>
+
                     </div>
-
                 </div>
             </div>
+
         </div>
     </div>
-</div>
 </div>
 
 </body>
