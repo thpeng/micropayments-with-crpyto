@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HWZ DPL iRead</title>
+    <title>HWZ DPL easyRead</title>
     <link rel="stylesheet" href="nhwzz_css.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -94,7 +94,7 @@
 
                                                 </div>
                                                 <div class="header-service__container header-service__container--left">
-                                                    <small>powered by iRead</small>
+                                                    <small>powered by easyRead</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -380,10 +380,10 @@
                                                              class="teaser teaser__layout--longformstandard teaser--size-2of3">
                                                             <!----> <!----> <!----> <!----> <!---->
                                                             <div class="poster poster--2of3 poster--2of3-longformstandard">
-                                                                <h1>iRead - Einfach wie am Kiosk!</h1>
+                                                                <h1>easyRead - Einfach wie am Kiosk!</h1>
 
-                                                                <img id="ireadpicture" class="blur" src="iread.png"/>
-                                                                <p id="iread" class="blur">
+                                                                <img id="easyReadpicture" class="blur" src="easyRead.png"/>
+                                                                <p id="easyRead" class="blur">
                                                                     Lorem ipsum dolor sit amet, consetetur sadipscing
                                                                     elitr, sed diam nonumy eirmod tempor invidunt ut
                                                                     labore et
@@ -401,7 +401,7 @@
                                                                     sea
                                                                     takimata sanctus est Lorem ipsum dolor sit amet.
                                                                 </p>
-                                                                <button id="ireadbutton" class="paymentbutton" hidden="hidden" onclick="
+                                                                <button id="easyReadbutton" class="paymentbutton" hidden="hidden" onclick="
              let transactionParam = {
                  to: '0x427A77C91E12fd60c2f602993a2fc0c08CFBe5aa',
                  from: ethereum.selectedAddress,
@@ -410,9 +410,9 @@
 
              ethereum.request({method: 'eth_sendTransaction', params:[transactionParam]}).then(txhash => {
                 console.log(txhash);
-                    document.querySelector('#iread').classList.remove('blur');
-                    document.querySelector('#ireadpicture').classList.remove('blur');
-                                        document.querySelector('#ireadbutton').style.visibility  = 'hidden';
+                    document.querySelector('#easyRead').classList.remove('blur');
+                    document.querySelector('#easyReadpicture').classList.remove('blur');
+                                        document.querySelector('#easyReadbutton').style.visibility  = 'hidden';
 
 
 
